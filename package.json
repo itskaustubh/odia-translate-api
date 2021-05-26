@@ -6,7 +6,9 @@
   "author": "Kaustubh Bhagwat",
   "license": "MIT",
   "private": true,
-  "proxy": "http://localhost:4000",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "@google-cloud/translate": "^6.2.1",
     "cors": "^2.8.5",
